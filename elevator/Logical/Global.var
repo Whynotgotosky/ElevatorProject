@@ -6,22 +6,48 @@
  * Declaration of global variables
  *********************************************************************************)
 VAR
-	
-	LeftTower:tTower_Interface;(*ÊµÀı»¯×óµçÌİ¾®½Ó¿Ú*)
-	RightTower:tTower_Interface;(*ÊµÀı»¯ÓÒµçÌİ¾®½Ó¿Ú*)
-	
-	LeftCabin:tCabin_Interface;(*ÊµÀı»¯×óµçÌİ½ÎÏá½Ó¿Ú*)
-	RightCabin:tCabin_Interface;(*ÊµÀı»¯ÓÒµçÌİ½ÎÏá½Ó¿Ú*)
-	
-	Floor1Panel : tFloor_Interface;(*ÊµÀı»¯¸÷Â¥²ãÃæ°å*)
+	KONGL : USINT := 0;
+	KONGR : USINT := 0;
+	FLOOR2U : USINT := 0;
+	DOL : USINT := 0;
+	UP : USINT := 0;
+	LeftTower : tTower_Interface; (*å®ä¾‹åŒ–å·¦ç”µæ¢¯äº•æ¥å£*)
+	RightTower : tTower_Interface; (*å®ä¾‹åŒ–å³ç”µæ¢¯äº•æ¥å£*)
+	LeftCabin : tCabin_Interface; (*å®ä¾‹åŒ–å·¦ç”µæ¢¯è½¿å¢æ¥å£*)
+	RightCabin : tCabin_Interface; (*å®ä¾‹åŒ–å³ç”µæ¢¯è½¿å¢æ¥å£*)
+	Floor1Panel : tFloor_Interface; (*å®ä¾‹åŒ–å„æ¥¼å±‚é¢æ¿*)
 	Floor2Panel : tFloor_Interface;
 	Floor3Panel : tFloor_Interface;
 	Floor4Panel : tFloor_Interface;
 	Floor5Panel : tFloor_Interface;
 	Floor6Panel : tFloor_Interface;
 	Floor7Panel : tFloor_Interface;
-		
-END_VAR
- 
-VAR CONSTANT
+	FLOOR3U : USINT := 0;
+	FLOOR4U : USINT := 0;
+	FLOOR5U : USINT := 0;
+	FLOOR7U : USINT := 0;
+	RB : USINT := 0;
+	FLOOR1U : USINT := 0;
+	FLOOR6U : USINT := 0;
+	RB7 : USINT := 0;
+	RB6 : USINT := 0;
+	RB5 : USINT := 0;
+	RB4 : USINT := 0;
+	RB3 : USINT := 0;
+	RB2 : USINT := 0;
+	RL7 : USINT := 0;
+	RL6 : USINT := 0;
+	RL5 : USINT := 0;
+	RL4 : USINT := 0;
+	RL3 : USINT := 0;
+	RL2 : USINT := 0;
+	RL1 : USINT := 0;
+	FLOOR7D : USINT := 0;
+	FLOOR6D : USINT := 0;
+	FLOOR5D : USINT := 0;
+	FLOOR4D : USINT := 0;
+	FLOOR3D : USINT := 0;
+	FLOOR2D : USINT := 0;
+	FLOOR1D : USINT := 0;
+	RB1 : USINT := 0;
 END_VAR
